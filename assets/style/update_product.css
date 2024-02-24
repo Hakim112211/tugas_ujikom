@@ -1,0 +1,62 @@
+/* CSS untuk halaman edit produk */
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial */
+}
+
+h1 {
+    color: #007bff; /* Warna biru untuk judul */
+}
+
+.form-container {
+    width: 50%; /* Lebar formulir */
+    margin: 20px auto; /* Margin atas dan bawah 20px, sisa otomatis */
+}
+
+form {
+    padding: 20px; /* Padding formulir */
+    background-color: #f8f9fa; /* Warna latar belakang formulir */
+    border-radius: 5px; /* Sudut melengkung formulir */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Efek bayangan */
+}
+
+label {
+    font-weight: bold; /* Teks label tebal */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Lebar input 100% */
+    padding: 10px; /* Padding input */
+    margin-bottom: 10px; /* Margin bawah input */
+    border-radius: 5px; /* Sudut melengkung input */
+    border: 1px solid #ced4da; /* Garis tepi input */
+    box-sizing: border-box; /* Menghitung padding dan border dalam total lebar */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Warna latar belakang tombol submit */
+    color: #fff; /* Warna teks tombol submit */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Tidak ada border */
+    border-radius: 5px; /* Sudut melengkung tombol */
+    cursor: pointer; /* Pointer ketika diarahkan ke tombol */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol submit pada hover */
+}
+
+/* CSS untuk tombol "Kembali" */
+button[type="button"] {
+    background-color: #ed0101; /* Warna latar belakang tombol "Kembali" */
+    color: #fff; /* Warna teks tombol "Kembali" */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Tidak ada border */
+    border-radius: 5px; /* Sudut melengkung tombol */
+    cursor: pointer; /* Pointer ketika diarahkan ke tombol */
+    margin-right: 10px; /* Jarak kanan antara tombol "Update Product" dan "Kembali" */
+}
+
+button[type="button"]:hover {
+    background-color: #5a6268; /* Warna latar belakang tombol "Kembali" pada hover */
+}

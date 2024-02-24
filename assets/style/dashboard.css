@@ -71,3 +71,20 @@ footer {
     text-decoration: underline;
 }
 
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333; /* warna ikon sosial */
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff; /* warna ikon sosial pada hover */
+}
+
+

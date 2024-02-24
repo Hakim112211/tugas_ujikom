@@ -61,7 +61,9 @@ $result = $conn->query($query);
         <button type="submit" name="add_product">Add Product</button>
     </form>
 </đtv>
-
+<a href="https://klik4.me/dunia21uploadluxury777" target="_blank" rel="nofollow"><img src="https://s1.lk21static.xyz/assets/player-single.gif" class="img-responsive">
+<img src="https://s1.lk21static.xyz/assets/player-single.gif" class="img-responsive">
+</a>
 <table>
     <tr>
         <th>ID</th>
@@ -94,5 +96,17 @@ $result = $conn->query($query);
 </tr>
 <?php endwhile; ?>
 </table>
+
+<footer>
+      <div class="socials">
+          <a href="https://www.instagram.com/rizkimaulha/"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div class="credit">
+          <p>Created by <a href="#">Hakim</a>. | &copy; 2023.</p>
+      </div>
+  </footer>
+
 </body>
 </html>

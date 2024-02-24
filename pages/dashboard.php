@@ -19,6 +19,8 @@ $realName = $_SESSION['nama'];
     <link rel="icon" href="./../assets/images/ocean.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/style/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+
 </head>
 <body>
   
@@ -49,21 +51,22 @@ $realName = $_SESSION['nama'];
         <p>Welcome to the Ocean cashier dashboard. You can manage products and perform other tasks here.</p>
       </div>
       
+      <form action="../db/DB_logout.php" method="post">
+      <button type="submit" class="btn-logout">Log Out</button>
+      </form>
+      
       <footer>
-      <div class="socials">
-          <a href="https://www.instagram.com/rizkimaulha/"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-      </div>
-      <div class="credit">
-          <p>Created by <a href="#">Hakim</a>. | &copy; 2023.</p>
-      </div>
-  </footer>
-    
-    <form action="../db/DB_logout.php" method="post">
-    <button type="submit" class="btn-logout">Log Out</button>
-    </form>
+    <div class="credit">
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <p>Created by <a href="#">Hakim</a>. | &copy; 2023.</p>
+        </div>
+    </div>
+</footer>
 
+   
 </footer>
 </body>
 </html>
